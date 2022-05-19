@@ -61,6 +61,12 @@ line-height: 75px;
     height: 600px;
     width: 100%;
     overflow: hidden;
+
+    position: relative;
+}
+
+#cover-text, #cover-text h2 {
+    color: #fff;
 }
 
 #hero-image {
@@ -71,12 +77,10 @@ line-height: 75px;
 
 /* animates zoom effect on loading page */
 
-    #hero-outer {
-        animation-name: hero-zoom;
+    animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-    }
-
+    
 /* creates the level of zoom for hero image */
 
 @keyframes hero-zoom {
@@ -85,5 +89,26 @@ line-height: 75px;
     }
     to{
         transform: scale(1.1);
-    }
+    }   
+}
+
+
+#cover-text {
+    font-size: 130%;
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(241, 109, 107, .7);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
 }

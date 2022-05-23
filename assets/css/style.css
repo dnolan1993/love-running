@@ -73,7 +73,7 @@ line-height: 75px;
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url('./images/hero-image.webp') no-repeat center center;
+    background: url('../images/hero-image.webp') no-repeat center center;
 /* animates zoom effect on loading page */
 
     animation-name: hero-zoom;
@@ -186,7 +186,7 @@ hr {
 }
 
 #circle-cover-bg {
-    background: url(./images/ethos-center-image.jpg) no-repeat center center;
+    background: url(../images/ethos-center-image.jpg) no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
@@ -194,7 +194,7 @@ hr {
 /* event times */
 
 #times {
-    background-image: url(./images/dublin-city.webp);
+    background-image: url(../images/dublin-city.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -276,6 +276,13 @@ height: 150px;
         clear: both;
         width: 100%; 
         float: left;
+        padding: 0;
+    }
+
+    #times > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
         padding: 0;
     }
 
